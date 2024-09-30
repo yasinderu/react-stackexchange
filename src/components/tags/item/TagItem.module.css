@@ -1,0 +1,19 @@
+.tagItem {
+    border-radius: 8px;
+    border: 2px solid #40a6ff;
+    padding: 6px;
+    margin: 6px;
+}
+
+.tagItem:hover {
+    cursor: pointer;
+    background-color: #40a6ff;
+}
+
+.active {
+    background-color: #40a6ff;
+}
+
+.tagItem:first-child {
+    margin-left: 0;
+}

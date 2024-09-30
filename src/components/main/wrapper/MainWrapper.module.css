@@ -1,0 +1,30 @@
+.mainWrapper {
+    width: 70%;
+    margin: 2rem auto auto auto;
+    text-align: left;
+}
+
+.searchContainer {
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 12px;
+}
+
+.searchContainer input[type=text] {
+    padding: 8px;
+    width: 600px;
+    font-size: 17px;
+    border: 1px solid #40a6ff;
+}
+
+.searchContainer button {
+    /* float: right; */
+    padding: 8px;
+    background: #40a6ff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
