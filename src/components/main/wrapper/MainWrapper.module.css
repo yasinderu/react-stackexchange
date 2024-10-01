@@ -11,6 +11,9 @@
 .sticky {
     position: fixed;
     top: 12px;
+    width: fit-content;
+    background-color: #ffffff;
+    border-radius: 12px;
 }
 
 .searchContainer input[type=text] {

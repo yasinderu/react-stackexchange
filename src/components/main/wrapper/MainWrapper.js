@@ -31,9 +31,9 @@ const MainWrapper = () => {
           />
           <button type="submit">search</button>
         </form>
+        <h2>Trending</h2>
+        <Tags tagSearchValue={tagValue} setActiveTag={setActiveTag} />
       </div>
-      <h2>Trending</h2>
-      <Tags tagSearchValue={tagValue} setActiveTag={setActiveTag} />
       <Suspense>
         <QuestionsContainer activeTag={activeTag} />
       </Suspense>

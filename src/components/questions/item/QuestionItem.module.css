@@ -1,7 +1,7 @@
 .box {
     display: flex;
-    justify-content: space-between;
-    padding: 0 2em 2em 2em;
+    justify-content: space-around;
+    padding: 0 1rem 1rem 1rem;
     text-align: center;
     border-bottom: 1px solid black;
 }
@@ -16,7 +16,7 @@
 }
 
 .boxItem {
-    margin: auto;
+    max-width: 100px;
 }
 
 .boxItem h4 {
@@ -31,4 +31,9 @@
 
 .boxItem .ans {
     padding: 6px;
+}
+
+.profilePict {
+    width: 56px;
+    border-radius: 50%;
 }
